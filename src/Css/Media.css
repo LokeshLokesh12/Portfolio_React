@@ -49,7 +49,7 @@
         width: 100%;
     }
     .blast,.blas {
-        font-size: 35px;
+        font-size: 30px;
         letter-spacing: 0px !important;
     }
     .l-gli {
@@ -76,6 +76,7 @@
         margin: 10px 0 0 0 ;
     }
 }
+
 @media only screen and (max-width: 380px){
     .blast,.blas {
         font-size: 30px;
