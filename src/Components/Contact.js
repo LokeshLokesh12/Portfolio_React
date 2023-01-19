@@ -12,6 +12,9 @@ function Contact() {
         'E8Fx3XiyOydkpun23')
       .then((result) => {
           console.log(result.text);
+          if (result.status === 200) {
+            alert("mail sent successfully")
+          }
       }, (error) => {
           console.log(error.text);
       });
@@ -50,6 +53,7 @@ function Contact() {
           
           </a>
         </div> */}
+       
         <div class="social">
             <a href="https://www.instagram.com/i_am_loksh_/"><i class="fa fa-instagram" aria-hidden="true"></i> instagtam</a>
             <a href="https://github.com/LokeshLokesh12"><i class="fa fa-github" aria-hidden="true"></i> github</a>

@@ -75,6 +75,13 @@
     .myPort::after {
         margin: 10px 0 0 0 ;
     }
+    #email{
+        display: block;
+
+    }
+    .contact_form input {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 380px){

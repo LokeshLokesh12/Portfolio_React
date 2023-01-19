@@ -12,9 +12,9 @@ function Home() {
         <div className="main_main">
             <div className="real">
                 {/* <!-- home section --> */}
-                <div className="home" id="home">
-                    <p className="html"></p>
+                {/* <div className="home" id="home"> */}
                     <div className="intro">
+                    <p className="html"></p>
                         <h1 className="intro-text">
                             INTRO
                             
@@ -52,7 +52,7 @@ function Home() {
                         </p>
                         <a className="contact-but" href="#contact">contact me !</a>
                     </div>
-                </div>
+                {/* </div> */}
             
             </div>
         </div>
