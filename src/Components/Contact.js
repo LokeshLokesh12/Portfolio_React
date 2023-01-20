@@ -1,11 +1,19 @@
 import React,{Fragment,useRef} from 'react'
 import emailjs from '@emailjs/browser';
-function Contact() {
+import Popup from './Popup';
+import 'bootstrap/dist/css/bootstrap.css';
+// import Toast from 'react-bootstrap/Toast';
 
+function Contact() {
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm(
+    
+    let email = document.getElementById('email')
+    console.log(email);
+    if(email.value.match('gmail.com')){
+      emailjs.sendForm(
       'service_s06ptga',
        'template_d1aol7m',
         form.current,
@@ -13,14 +21,34 @@ function Contact() {
       .then((result) => {
           console.log(result.text);
           if (result.status === 200) {
-            alert("mail sent successfully")
+            // alert("mail sent successfully")
+            let toastelement = document.getElementById('popup')
+            let toast = new window.bootstrap.Toast(toastelement)
+            toast.show();
+          }
+          else{
+            alert("somewhere went wrong")
           }
       }, (error) => {
           console.log(error.text);
       });
+      
+      // let toastelement = document.getElementById('popup')
+      // let toast = new window.bootstrap.Toast(toastelement)
+      // toast.show();
+    }
+    else{   
+      email.classList.add("invalid_input")
+        setTimeout(()=>{
+          email.classList.remove("invalid_input")
+        },300)
+      }
+    
   };
   return (
     <Fragment>
+        <Popup message="mail sent successfully" />
+        {/* <Popup message={popupmessage} /> */}
       <div className="main_main">
       <div className="contact" id='contact'>
         <h1 className="intro-container green">
@@ -41,10 +69,10 @@ function Contact() {
         </p>
         <div className="form" >
           <form name='contact' className='contact_form' id='contact_form' ref={form} onSubmit={sendEmail}>
-            <input type="text" id='name' placeholder='name' name='name' />
-            <input type="email" id='email' placeholder='enter your email' name='email'/>
+            <input type="text" id='name' placeholder='name' name='name' required/>
+            <input type="email" id='email' placeholder='enter your email' name='email' required/>
             <input type="text" placeholder='subject' id='subject' name='subject'/>
-            <textarea name="message" id="body" cols="30" rows="10" placeholder='message'></textarea>
+            <textarea name="message" id="body" cols="30" rows="10" placeholder='message' required></textarea>
             <button className='contact-but'>send</button>
           </form>
         </div>

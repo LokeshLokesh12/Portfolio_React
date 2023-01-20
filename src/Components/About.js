@@ -29,7 +29,7 @@ function About() {
         {/* <!-- about section --> */}
         <div className="main_main">
             <div className="about" id="about">
-                    <img className="bc" src="./Assets/jfbj.svg" alt=""/>
+                    <img className="bc" src="./Assets/jfbj.svg" alt="" onClick={false}/>
                     <h1 className="work-text">WORK</h1>
                     {/* <!-- my porttfolio word --> */}
                     <div className="about-intro ">
@@ -52,12 +52,12 @@ function About() {
             
             <p className="about-para">
             I studied electronic and communication engineering. In my final year,
-            I realize my serious passion in web development so learned front-end technologies such as HTML, CSS, and JAVASCRIPT at Edureka, 
+            I realize my serious passion in web development so learned front-end technologies such as <strong className='con-a'>HTML, CSS, JAVASCRIP, REACTjs and REST API</strong> at Edureka, 
             Now I am looking for a job that improves my skills and helps me to achieve my dreams in my career,
                <br />
             And there is 
             a small gallery of recent projects chosen by me. I worked on those projects for my studies.
-            I'm ready to build a website for you, So have <a href="http://www.google.com" className="con-a">contact</a> with me.
+            I'm ready to build a website for you, So have <a href="#contact" className="con-a">contact</a> with me.
                 <span className="span-bad">
                 “A bad website is like a grumpy salesperson.”
                 </span>

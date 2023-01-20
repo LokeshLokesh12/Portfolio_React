@@ -101,7 +101,7 @@ a:hover{
 .main_main{
     width: 100%;
     background-color: #1d1d1d;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     max-height: auto;
     /* margin:0 0 0 10%; */
     /* padding: 50px 20px 10px 50px; */
@@ -250,10 +250,10 @@ a:hover{
     justify-content: space-around;
 }
 .about{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     max-height: auto;
     position: relative;
-    margin: -50px 0 0 0;
+    /* margin: -50px 0 0 0; */
     /* background-image: url(http://localhost:3000/Assets/jfbj.svg); */
   
     /* filter: brightness(0.4); */
@@ -300,11 +300,12 @@ a:hover{
 }    */
 .intro {
     overflow: hidden !important;
-    padding: 0 0 20px 0;
+    /* padding: 0 0 20px 0; */
+    padding: 1% 0 ;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 100vh;
+    /* justify-content: space-around;
+    height: 100vh; */
     /* justify-content: center; */
     /* gap: 5%; */
 }
@@ -511,7 +512,7 @@ a:hover{
     /* height: 50px; */
     font-size: 16px;
     color: #8d8d8d;
-    padding: 0 20px;
+    padding:  20px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -528,7 +529,7 @@ a:hover{
     text-transform: capitalize;
     /* width: 100%; */
     border: 0;
-    background: #2b2b2b;
+    background: #2b2b2b !important;
     /* height: 50px; */
     font-size: 16px;
     color: #8d8d8d;
@@ -558,8 +559,8 @@ a:hover{
 }
 .invalid_input{
     animation:  invalid_input 300ms;
-    border: #EB4F4F 2px solid !important; 
-    color: #EB4F4F;
+    border-bottom: #EB4F4F 5px solid !important; 
+    color: #EB4F4F !important;
 
 }
 @keyframes invalid_input {
