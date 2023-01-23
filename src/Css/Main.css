@@ -160,13 +160,13 @@ a:hover{
 .blast:hover,.blas:hover{
     color: #08fdd8;
 }
-.blast-b{
+/* .blast-b{
     margin-right: 25px;
-}
-.l-gli,.l-img{
+} */
+.l-gli, .l-img {
     width: 150px;
     height: 150px;
-    margin: -50PX -35PX 0PX 0 ;
+    margin: -65PX -35PX 0PX 0;
 }
 .intro-container{
     margin:0 25px;
@@ -489,7 +489,7 @@ a:hover{
     display: inline;
 }
 #subject{
-    display: block;
+    /* display: block; */
     width: 100%;
 }
 #name{
@@ -612,4 +612,7 @@ a:hover{
 }
 .social a:hover{
     color: #05fdd8 !important;
+}
+#popup{
+    z-index: 11;
 }

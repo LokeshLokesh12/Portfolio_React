@@ -37,6 +37,7 @@ function Home() {
                             <span className="blast blast-w" style={ {'opacity':1}}>W</span>
                             <span className="blast blast-e" style={ {'opacity':1}}>E</span>
                             <span className="blast blast-b" style={ {'opacity':1}}>B</span>
+                            <span className="blast blast---" style={ {'opacity':1}}></span>
                             <span className="blast blast-d" style={ {'opacity':1}}>D</span>
                             <span className="blast blast-e" style={ {'opacity':1}}>E</span>
                             <span className="blast blast-" style={ {'opacity':1}}>V</span>

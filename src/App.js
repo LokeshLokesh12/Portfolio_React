@@ -5,7 +5,7 @@ import Contact from './Components/Contact';
 import '../src/Css/Main.css';
 import '../src/Css/Media.css';
 import '../src/Css/Animation.css';
-
+import 'bootstrap/dist/css/bootstrap.css';
 function App() {
 
   return (

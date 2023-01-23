@@ -52,10 +52,18 @@
         font-size: 30px;
         letter-spacing: 0px !important;
     }
-    .l-gli {
+    /* .l-gli {
         width: 100px;
         height: 100px;
         margin: -40PX -30PX -2PX 0;
+    } */
+    .l-gli {
+        width: 80px;
+        height: 80px;
+        margin: -30PX -18PX 0PX 0;
+    }
+    .blast---{
+        margin: 0 15px 0 0;
     }
     .project{
         flex-direction: column;
@@ -75,9 +83,9 @@
     .myPort::after {
         margin: 10px 0 0 0 ;
     }
-    #email{
+    #email {
         display: block;
-
+        margin: 5px 0;
     }
     .contact_form input {
         width: 100%;
@@ -89,10 +97,13 @@
         font-size: 30px;
         letter-spacing: -10px;
     }
-    .l-gli {
+    /* .l-gli {
         width: 90px;
         height: 90px;
         margin: -40PX -25PX -2PX 0;
+    } */
+    .toast{
+        width: 250px !important;
     }
 }
 @media only screen and (max-width: 330px){

@@ -35,7 +35,8 @@ function About() {
                     <div className="about-intro ">
                         <h1 className="myPort intro-container green"> 
                             <span className="blas blast-" style={ {'opacity':1}}>M</span>
-                            <span className="blas blast-b" style={ {'opacity':1}}>Y</span>
+                            <span className="blas blast-" style={ {'opacity':1}}>Y</span>
+                            <span className="blast blast---" style={ {'opacity':1}}></span>
                             <span className="blas blast-" style={ {'opacity':1}}>P</span>
                             <span className="blas blast-" style={ {'opacity':1}}>O</span>
                             <span className="blas blast-" style={ {'opacity':1}}>R</span>
