@@ -51,7 +51,10 @@ function Home() {
                         <p className="dev-til">
                             Front-end web developer
                         </p>
-                        <a className="contact-but" href="#contact">contact me !</a>
+                        <div className="">
+                            <a className="contact-but" href="#contact">contact me !</a>
+                            <a className="contact-but" href="./Assets/Lokesh-developer-Resume.pdf" >view resume</a>
+                        </div>
                     </div>
                 {/* </div> */}
             

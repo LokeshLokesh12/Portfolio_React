@@ -219,10 +219,11 @@ a:hover{
 
 }
 .contact-but{
+    display: inline-block;
     width: 250px;
     text-align: center;
     position: relative;
-    margin: 0px 25px 0 25px;
+    margin: 10px 15px 10px 15px;
     color: #05fdd8;
     background-color: transparent;
     padding: 10px 55px;
@@ -231,6 +232,7 @@ a:hover{
     border: 1px solid #05fdd8;
     text-transform: capitalize;    
 }
+
 .contact-but:hover{
     background-color: #05fdd8;
     color: #000 !important;
