@@ -11,7 +11,7 @@ function Contact() {
     e.preventDefault();
     
     let email = document.getElementById('email')
-    console.log(email);
+    // console.log(email);
     if(email.value.match('gmail.com')){
       emailjs.sendForm(
       'service_s06ptga',
@@ -19,12 +19,13 @@ function Contact() {
         form.current,
         'E8Fx3XiyOydkpun23')
       .then((result) => {
-          console.log(result.text);
+          // console.log(result.text);
           if (result.status === 200) {
             // alert("mail sent successfully")
             let toastelement = document.getElementById('popup')
             let toast = new window.bootstrap.Toast(toastelement)
             toast.show();
+            form.current.reset();
           }
           else{
             alert("somewhere went wrong")
@@ -32,7 +33,7 @@ function Contact() {
       }, (error) => {
           console.log(error.text);
       });
-      
+  
       // let toastelement = document.getElementById('popup')
       // let toast = new window.bootstrap.Toast(toastelement)
       // toast.show();
