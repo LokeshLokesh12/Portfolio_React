@@ -86,7 +86,7 @@ function Contact() {
         <div class="social">
             <a href="https://www.instagram.com/i_am_loksh_/"><i class="fa fa-instagram" aria-hidden="true"></i> instagtam</a>
             <a href="https://github.com/LokeshLokesh12"><i class="fa fa-github" aria-hidden="true"></i> github</a>
-            <a href="https://www.linkedin.com/in/logeshwar-%E3%85%A4-20295a23b/"><i class="fa fa-linkedin" aria-hidden="true"></i> linkedin</a>
+            <a href="https://www.linkedin.com/in/logeshwar-web-developer/"><i class="fa fa-linkedin" aria-hidden="true"></i> linkedin</a>
         </div>
       </div>
       <p className="_html"></p>
