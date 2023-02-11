@@ -53,7 +53,7 @@ function Home() {
                         </p>
                         <div className="">
                             <a className="contact-but" href="#contact">contact me !</a>
-                            <a className="contact-but" href="./Assets/Lokesh-developer-Resume.pdf" >view resume</a>
+                            <a className="contact-but" download href="./Assets/Lokesh-developer-Resume-V10.pdf" >download resume</a>
                         </div>
                     </div>
                 {/* </div> */}
