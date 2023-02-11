@@ -397,6 +397,7 @@ a:hover{
     justify-content: space-evenly;
     padding: 10px;
     flex-wrap: wrap;
+    gap: 30px;
 
 }
 .box{

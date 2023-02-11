@@ -68,8 +68,12 @@ function About() {
                     <div className="project">
                         <a href="https://stunning-puffpuff-8cba7a.netlify.app/"  className="box">Airtel</a>
                         <a href="https://cozy-bonbon-d00cb5.netlify.app/" className="box">zomato </a>
-                        <a href="https://dapper-mooncake-908bb2.netlify.app/show" className="box">netflix </a>
+                        <a href="https://crosby-demo.netlify.app/" className="box">crosby </a>
+                        <a href="https://react-clone-tesla.netlify.app/" className="box">tesla</a>
+                        {/* <a href="https://lokeshlokesh12.github.io/weather_app/" className="box">weather</a> */}
+                        {/* <a href="https://lokeshlokesh12.github.io/weather_app/" className="box">weather</a>
                         <a href="https://lokeshlokesh12.github.io/weather_app/" className="box">weather</a>
+                        <a href="https://lokeshlokesh12.github.io/weather_app/" className="box">weather</a> */}
                     </div>
                 </div>
                
