@@ -397,7 +397,7 @@ a:hover{
     justify-content: space-evenly;
     padding: 10px;
     flex-wrap: wrap;
-    gap: 30px;
+    /* gap: 30px; */
 
 }
 .box{
@@ -618,4 +618,44 @@ a:hover{
 }
 #popup{
     z-index: 11;
+}
+.down_icon{
+    position: absolute;
+    /* top : 2%; */
+    bottom: 2%;
+    right : 1%;
+}
+
+
+.down_icon_bg i{
+    background-color: #95999a;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #1d1d1d;
+
+}
+
+.down_icon_bg:hover::before{
+    transition: .2s; 
+    transform: translateY(0%) !important;
+    opacity: 1;
+    width: auto;
+    content: "Download resume";
+    padding: 5px 10px;
+
+    
+}
+.down_icon_bg::before{
+    content: "";
+    background-color: #95999a;
+    border-radius: 50px;
+    text-transform: capitalize;
+    margin: 0 5px;
+    transition: .3s;
+    transform: translateY(100%) !important;
+    display: inline-block;
+    /* display: none;   */
+    opacity: 0;
+    z-index: -1000;
+    width: 0;
 }

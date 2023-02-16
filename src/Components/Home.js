@@ -1,6 +1,7 @@
 import React,{Fragment,useEffect} from 'react'
 import {gsap,} from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Downloadcv from './Downloadcv';
 gsap.registerPlugin(ScrollTrigger);
 function Home() {
     useEffect(()=>{
@@ -8,6 +9,7 @@ function Home() {
     },[])
   return (
     <Fragment>
+        <Downloadcv/>
         <div className="main">
         <div className="main_main">
             <div className="real">
@@ -53,7 +55,7 @@ function Home() {
                         </p>
                         <div className="">
                             <a className="contact-but" href="#contact">contact me !</a>
-                            <a className="contact-but" download href="./Assets/Lokesh-developer-Resume-V10.pdf" >download resume</a>
+                            {/* <a className="contact-but" download href="./Assets/Lokesh-developer-Resume-V10.pdf" >download resume</a> */}
                         </div>
                     </div>
                 {/* </div> */}
