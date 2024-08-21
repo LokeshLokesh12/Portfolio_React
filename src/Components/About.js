@@ -52,9 +52,12 @@ function About() {
             {/* <!-- my potyfolio para --> */}
             
             <p className="about-para">
-            I hold a degree in Electronic and Communication Engineering. During my final year, I discovered a deep passion for web development, 
-            which led me to enhance my skills in front-end technologies, including HTML, CSS, JavaScript, React.js, and REST API, through training at Edureka. Currently, I am pursuing 
-             <strong className='con-a'>HTML, CSS, JAVASCRIP, REACTjs and REST API</strong>, through training at Edureka. Currently, I am pursuing a B.Tech in Information Technology to further refine my expertise and advance my career goals. And,
+            I hold a degree in Electronic and Communication Engineering. During my final year, 
+            I discovered a deep passion for web development, 
+            which led me to enhance my skills in front-end technologies, 
+            including <strong className='con-a'> HTML, CSS, JAVASCRIP, REACTjs and REST API</strong>,
+             through training at Edureka. Currently, 
+             I am pursuing a B.Tech in Information Technology to further refine my expertise and advance my career goals.
             <br />
             There is 
             a small gallery of recent projects chosen by me. I worked on those projects for my studies.
