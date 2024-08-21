@@ -344,7 +344,7 @@ a:hover{
 }
 .about-para{
     color: #fff;
-    width: 80%;
+    width: 85%;
     margin: 0 0 0 40px !important;
 
 }
@@ -454,7 +454,7 @@ a:hover{
     text-transform: capitalize;
 }
 .con-a:hover{
-    color: red;
+    color: red ;
 }
 .contact{
     margin: 0 30px;

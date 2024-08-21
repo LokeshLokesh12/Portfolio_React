@@ -52,13 +52,14 @@ function About() {
             {/* <!-- my potyfolio para --> */}
             
             <p className="about-para">
-            I studied electronic and communication engineering. In my final year,
-            I realize my serious passion in web development so learned front-end technologies such as <strong className='con-a'>HTML, CSS, JAVASCRIP, REACTjs and REST API</strong> at Edureka, 
-            Now I am looking for a job that improves my skills and helps me to achieve my dreams in my career,
-               <br />
-            And there is 
+            I hold a degree in Electronic and Communication Engineering. During my final year, I discovered a deep passion for web development, 
+            which led me to enhance my skills in front-end technologies, including HTML, CSS, JavaScript, React.js, and REST API, through training at Edureka. Currently, I am pursuing 
+             <strong className='con-a'>HTML, CSS, JAVASCRIP, REACTjs and REST API</strong>, through training at Edureka. Currently, I am pursuing a B.Tech in Information Technology to further refine my expertise and advance my career goals. And,
+            <br />
+            There is 
             a small gallery of recent projects chosen by me. I worked on those projects for my studies.
-            I'm ready to build a website for you, So have <a href="#contact" className="con-a">contact</a> with me.
+            am eager to assist you in building a website tailored to your needs. Please don't hesitate to <a href="#contact" className="con-a">contact</a> me for further collaboration.
+            <br />
                 <span className="span-bad">
                 “A bad website is like a grumpy salesperson.”
                 </span>
